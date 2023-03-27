@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: CICD demo project 
+name: CICD demo project mch
 
 on:
   push:
