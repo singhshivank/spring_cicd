@@ -28,6 +28,9 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn clean install
+        
+      - name: test with Maven
+        run: mvn test
 
       # Optional: Uploads the full dependency to GitHub to improve the quality Dependabot alerts this repository can receive
       - name: Update dependency graph
